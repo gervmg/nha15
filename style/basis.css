@@ -1,0 +1,158 @@
+
+html {
+  background-color: #b2cfde;
+  font-family: 'Courier New', monospace;
+  font-size: 110%;
+}
+
+body {
+  background-color: #dbe9f0;
+  margin: auto;
+  width: 80%;
+  padding: 5px;
+}
+
+header {
+  height: 3em;
+  margin: 5px 5px 0px 5px  ;
+  background-color: #01233d;
+  text-align: left;
+  color: #dbe9f0;
+  padding: 8px;
+  font-weight: bold;
+}
+
+footer {
+  height: 3em;
+  margin: 0px 5px 0px 5px  ;
+  background-color: #006699;
+  text-align: right;
+  color: #cceeff;
+  padding: 8px;
+  font-weight: bold;
+}
+
+div{
+  margin: 0px 5px 0px 5px  ;
+}
+
+.div-1 {
+  height: 5em;
+  padding: 10px;
+  background-color: #fdf98b;
+  text-align: center;
+}
+
+.div-2 {
+  height: 20em;
+  padding: 16px;
+  background-color: #bfd96c;
+  text-align: left;
+}
+
+.div-1 p{
+  margin:0;
+}
+
+.div-2 p{
+  margin:0;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+  color: #cceeff;
+  font-weight: bold;
+}
+
+ul a:hover {
+  color: black;
+  background-color: #FFFF81;
+  font-size: 95%;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: bold;
+  }
+
+li {
+  display: inline-block;
+  height: 30px;
+  width: 12%;
+  padding: 12px;
+  border: 2px solid black;
+  background-color: #006699;
+}
+
+table, td, th{
+  border: 2px solid;
+  border-color: #01233d;
+  width: 90%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #01233d;
+  font-size: 98%;
+}
+
+tr, td{
+  width:30%;
+}
+
+td {
+  background-color: #dbeaae;
+}
+
+th {
+  background-color: #01233d;
+  color: #dbe9f0;
+}
+
+form {
+  margin: 10px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 30px;
+  background-color: #dbeaae;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 1px 1px #01233d;
+  font-family: inherit;
+  font-size: 90%;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px 5px;
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  margin-left: 238px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:active {
+  background-color: #323d10;
+  color: white;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 1px 1px #01233d;
+}
+
+img{
+  width:16% ;
+  height:16%;
+  float: right;
+}
